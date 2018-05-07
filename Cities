@@ -1,9 +1,13 @@
 public Cities{
   private int people;
+  Arraylist <Integer> cities= new Arraylist <Integer>;
   public Cities(){
     people=0;
   }
   public int getPeople(){
     return people;
+  }
+  public Arraylist <Integer> getCities(){
+    return cities;
   }
 }
