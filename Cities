@@ -1,0 +1,9 @@
+public Cities{
+  private int people;
+  public Cities(){
+    people=0;
+  }
+  public int getPeople(){
+    return people;
+  }
+}
